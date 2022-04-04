@@ -1,0 +1,26 @@
+.main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8ch;
+  margin-bottom: 8ch;
+}
+
+.links a {
+  font-size: medium;
+  margin-left: 2ch;
+  margin-right: 8ch;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 1.25rem;
+}
+
+.links a:hover,
+.links a:active,
+.links a.active {
+  border-bottom: 0.2rem solid white;
+}
